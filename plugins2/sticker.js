@@ -31,13 +31,13 @@ const handler = async (msg, { conn }) => {
     const mediaType = quoted.imageMessage ? 'image' : quoted.videoMessage ? 'video' : null;
     if (!mediaType) {
       return await conn.sendMessage(msg.key.remoteJid, {
-        text: '⚠️ *Solo puedes convertir imágenes o videos en stickers.*'
+        text: ' *✧ Solo puedes convertir imágenes o videos en stickers.*'
       }, { quoted: msg });
     }
 
     const senderName = msg.pushName || 'Usuario Desconocido';
     const now = new Date();
-    const fechaCreacion = `📅 ${now.getDate()}/${now.getMonth() + 1}/${now.getFullYear()} 🕒 ${now.getHours()}:${now.getMinutes()}`;
+    const fechaCreacion = `❀ ${now.getDate()}/${now.getMonth() + 1}/${now.getFullYear()} ⴵ ${now.getHours()}:${now.getMinutes()}`;
 
     await conn.sendMessage(msg.key.remoteJid, {
       react: { text: '🛠️', key: msg.key }
@@ -48,8 +48,8 @@ const handler = async (msg, { conn }) => {
     for await (const chunk of mediaStream) buffer = Buffer.concat([buffer, chunk]);
 
     const metadata = {
-      packname: `✨ Lo Mandó Hacer: ${senderName} ✨`,
-      author: `🤖 Bot Creador: Azura Ultra & Cortana Subbot\n🛠️ Desarrollado por: 𝙍𝙪𝙨𝙨𝙚𝙡𝙡 xz 💻\n${fechaCreacion}`
+      packname: ` 👑 ${senderName} `,
+      author: `\n ⌦ ${fechaCreacion}`
     };
 
     const sticker = mediaType === 'image'
