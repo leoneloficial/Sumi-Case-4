@@ -19,7 +19,7 @@ const handler = async (msg, { conn, args }) => {
 
   if (!chatId.endsWith("@g.us")) {
     return await conn.sendMessage(chatId, {
-      text: "⚠️ *Este comando solo se puede usar en grupos.*"
+      text: " *✧ Este comando solo se puede usar en grupos.*"
     }, { quoted: msg });
   }
 
@@ -33,14 +33,14 @@ const handler = async (msg, { conn, args }) => {
 
   if (!isAdmin && !isBot) {
     return await conn.sendMessage(chatId, {
-      text: "❌ Solo los administradores del grupo o el subbot pueden usar este comando."
+      text: "*✧ Solo los administradores del grupo o el subbot pueden usar este comando.*"
     }, { quoted: msg });
   }
 
-  const mentionList = participants.map(p => `➥ @${p.id.split("@")[0]}`).join("\n");
+  const mentionList = participants.map(p => `> ❀ @${p.id.split("@")[0]}`).join("\n");
   const extraMsg = args.join(" ");
-  let finalMsg = "━〔 *📢 INVOCACIÓN 📢* 〕━➫\n";
-  finalMsg += "٩(͡๏̯͡๏)۶ Por cortana 2.0 SubBot ٩(͡๏̯͡๏)۶\n";
+  let finalMsg = " *❀ INVOCACIÓN ❀*";
+  finalMsg += "\n ٩(͡๏̯͡๏)۶ 🩷 ٩(͡๏̯͡๏)۶";
   if (extraMsg.trim().length > 0) {
     finalMsg += `\n❑ Mensaje: ${extraMsg}\n\n`;
   } else {
