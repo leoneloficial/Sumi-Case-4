@@ -49,8 +49,7 @@ const handler = async (msg, { conn }) => {
 
     const metadata = {
       packname: ` 👑 ${senderName} `,
-      author: `\n ⌦ ${fechaCreacion}
-*${nombreMenu}* `
+      author: `\n ⌦ ${fechaCreacion} `
     };
 
     const sticker = mediaType === 'image'
