@@ -17,7 +17,7 @@ const handler = async (msg, { conn }) => {
     const usedPrefix = prefixes[subbotID] || ".";
 
     await conn.sendMessage(msg.key.remoteJid, {
-      react: { text: "📜", key: msg.key }
+      react: { text: "💜", key: msg.key }
     });
 
     let customData = {};
@@ -46,6 +46,12 @@ const handler = async (msg, { conn }) => {
 ╰─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ: 
    
 ✐; *✿*→ ᴘᴀʀᴀ ᴄʀᴇᴀʀ ᴜɴ sᴜʙ-ʙᴏᴛ ᴄᴏɴ ᴛᴜ ɴᴜᴍᴇʀᴏ ᴜᴛɪʟɪᴢᴀ *#qr* o *#code*
+
+➮   *EDITA TU BOT*
+
+#✎ .setmenu
+> comando para cambiar foto del menú y el nombre
+
 #✎ ${usedPrefix}serbot / qr
 #✎ ${usedPrefix}code / codigo 
 #✎ ${usedPrefix}sercode / codigo
