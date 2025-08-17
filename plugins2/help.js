@@ -35,9 +35,16 @@ const handler = async (msg, { conn }) => {
     if (personal) {
   // MENÚ PERSONALIZADO DISEÑO BONITO
   caption = `
-╭─❍ 𓂃 𝑺𝒖𝒃𝒃𝒐𝒕 𝑷𝒆𝒓𝒔𝒐𝒏𝒂𝒍𝒊𝒛𝒂𝒅𝒐 ❍─╮
-│   𝙈𝙚𝙣𝙪́: *${nombreMenu}*
 
+ > Hola! soy *${nombreMenu}*
+╭┈ ↷
+│❀ Modo » PUBLICO
+│✦ Bot »  SUB BOT 
+│✰ Usuarios » 3600
+│✧ Comandos » 120
+│❍ Channel » https://whatsapp.com/channel/0029Vagdmfv1SWt5nfdR4z3w
+╰─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ: 
+   
 ✐; *✿*→ ᴘᴀʀᴀ ᴄʀᴇᴀʀ ᴜɴ sᴜʙ-ʙᴏᴛ ᴄᴏɴ ᴛᴜ ɴᴜᴍᴇʀᴏ ᴜᴛɪʟɪᴢᴀ *#qr* o *#code*
 #✎ ${usedPrefix}serbot / qr
 #✎ ${usedPrefix}code / codigo 
