@@ -59,14 +59,12 @@ const handler = async (msg, { conn }) => {
 
 ➮    *DESCARGAS*
 
-#✎ ${usedPrefix}play / ${usedPrefix}playdoc
-#✎ ${usedPrefix}play2 / ${usedPrefix}play2doc
-#✎ ${usedPrefix}play5
-#✎ ${usedPrefix}play6
+#✎ ${usedPrefix}play / ${usedPrefix}play2
+> estos son en doc
+#✎ ${usedPrefix}playaudio / ${usedPrefix}playvideo
+> estos son los normales 
 #✎ ${usedPrefix}ytmp3 / ${usedPrefix}ytmp3doc
-#✎ ${usedPrefix}ytmp35
 #✎ ${usedPrefix}ytmp4 / ${usedPrefix}ytmp4doc
-#✎ ${usedPrefix}ytmp45
 #✎ ${usedPrefix}apk
 #✎ ${usedPrefix}instagram / ${usedPrefix}ig
 #✎ ${usedPrefix}tiktok / ${usedPrefix}tt
