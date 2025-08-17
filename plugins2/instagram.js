@@ -16,14 +16,14 @@ const handler = async (msg, { conn, text, command }) => {
 
   if (!text) {
     return await conn.sendMessage(msg.key.remoteJid, {
-      text: `✳️ Ejemplo de uso:\n${usedPrefix + command} https://www.instagram.com/p/CCoI4DQBGVQ/`
+      text: `❀ Ejemplo de uso:\n> ${usedPrefix + command} https://www.instagram.com/p/CCoI4DQBGVQ/`
     }, { quoted: msg });
   }
 
   try {
     // ⏳ Reacción mientras se procesa
     await conn.sendMessage(msg.key.remoteJid, {
-      react: { text: "⏳", key: msg.key }
+      react: { text: "🕐", key: msg.key }
     });
 
     const apiUrl = `https://api.dorratz.com/igdl?url=${text}`;
@@ -32,11 +32,11 @@ const handler = async (msg, { conn, text, command }) => {
 
     if (!data || data.length === 0) {
       return await conn.sendMessage(msg.key.remoteJid, {
-        text: "❌ No se pudo obtener el video de Instagram."
+        text: "✧ No se pudo obtener el video de Instagram."
       }, { quoted: msg });
     }
 
-    const caption = `🎬 *Video de Instagram*\n\n> 🍧 Solicitud procesada por api.dorratz.com\n\n───────\n© Azura Ultra & Cortana SubBot`;
+    const caption = ``;
 
     for (let item of data) {
       await conn.sendMessage(msg.key.remoteJid, {
@@ -50,9 +50,9 @@ const handler = async (msg, { conn, text, command }) => {
     });
 
   } catch (error) {
-    console.error("❌ Error en instagram:", error);
+    console.error("✧ Error en instagram:", error);
     await conn.sendMessage(msg.key.remoteJid, {
-      text: "❌ Ocurrió un error al procesar el enlace de Instagram."
+      text: "✧ Ocurrió un error al procesar el enlace de Instagram."
     }, { quoted: msg });
 
     await conn.sendMessage(msg.key.remoteJid, {
