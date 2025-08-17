@@ -37,7 +37,7 @@ const handler = async (msg, { conn }) => {
 
     const senderName = msg.pushName || 'Usuario Desconocido';
     const now = new Date();
-    const fechaCreacion = `❀ ${now.getDate()}/${now.getMonth() + 1}/${now.getFullYear()} \n ⴵ ${now.getHours()}:${now.getMinutes()}`;
+    const fechaCreacion = `❀ ${now.getDate()}/${now.getMonth() + 1}/${now.getFullYear()}  ⴵ ${now.getHours()}:${now.getMinutes()}`;
 
     await conn.sendMessage(msg.key.remoteJid, {
       react: { text: '🛠️', key: msg.key }
