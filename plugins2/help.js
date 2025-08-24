@@ -45,91 +45,158 @@ const handler = async (msg, { conn }) => {
 │❍ Channel » https://whatsapp.com/channel/0029Vagdmfv1SWt5nfdR4z3w
 ╰─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ: 
    
-✐; *✿*→ ᴘᴀʀᴀ ᴄʀᴇᴀʀ ᴜɴ sᴜʙ-ʙᴏᴛ ᴄᴏɴ ᴛᴜ ɴᴜᴍᴇʀᴏ ᴜᴛɪʟɪᴢᴀ *#qr* o *#code*
+➳ *#menu  #help*
+> ﹣para ver los comandos del Bot..
 
-➮   *EDITA TU BOT*
+➳ *#serbot #code*
+> ﹣para ser Sub-Bot..
+───────────────────────────────╯
 
-#✎ .setmenu
-> comando para cambiar foto del menú y el nombre
+*•°•°•°•°•°•°• ★ Configuración ★ •°•°•°•°•°•°•*
+> Comandos Para Configurar El Bot O El Sub-Bot..
 
-#✎ ${usedPrefix}serbot / qr
-#✎ ${usedPrefix}code / codigo 
-#✎ ${usedPrefix}sercode / codigo
-> esto es para que te hagas Sub bot 
+➳ *#setmenu*
+> ﹣personaliza tu Sub-Bot.. 
 
-➮   *IA PUEDES RESPUESTA*
+➳ *#delmenu*
+> ﹣quita lo personalizado..
 
-#✎ ${usedPrefix}chatgpt
-#✎ ${usedPrefix}geminis
-> ᥫ᭡con la ia puedes buscar lo que quieras puede servir para los estudios 
+➳ *#setprefix*
+> ﹣cambiar prefijo del Bot..
 
-➮    *DESCARGAS*
+➳ *#creador #owner*
+> ﹣contacto del creador.. 
 
-#✎ ${usedPrefix}play / ${usedPrefix}play2
-> estos son en doc
-#✎ ${usedPrefix}playaudio / ${usedPrefix}playvideo
-> estos son los normales 
-#✎ ${usedPrefix}ytmp3 / ${usedPrefix}ytmp3doc
-#✎ ${usedPrefix}ytmp4 / ${usedPrefix}ytmp4doc
-#✎ ${usedPrefix}apk
-#✎ ${usedPrefix}instagram / ${usedPrefix}ig
-#✎ ${usedPrefix}tiktok / ${usedPrefix}tt
-#✎ ${usedPrefix}facebook / ${usedPrefix}fb
-> ᥫ᭡con esto puedes descargar lo que gustes con el enlace o sin el enlace 
+➳ *#get*
+> ﹣descargar los estados..
 
-➮   *sticker y mas*
+➳ *#ping*
+> ﹣medir latencia del Bot..
 
-#✎ ${usedPrefix}s
-#✎ ${usedPrefix}ver
-#✎ ${usedPrefix}toaudio 
-#✎ ${usedPrefix}hd
-#✎ ${usedPrefix}toimg
-#✎ ${usedPrefix}whatmusic
-#✎ ${usedPrefix}tts
-#✎ ${usedPrefix}perfil
-> ᥫ᭡puedes hacer stickers y mejorar imágenes o saber que música buscas etc. 
+➳ *#addgrupo*
+> ﹣autorizar grupo para que lo usen..
 
-➮   *GRUPO*
+➳ *#delgrupo*
+> ﹣elimina grupo autorizado para que no lo usen..
 
-#✎ ${usedPrefix}abrirgrupo
-#✎ ${usedPrefix}cerrargrupo
-#✎ ${usedPrefix}infogrupo
-#✎ ${usedPrefix}kick
-#✎ ${usedPrefix}modoadmins on o off
-#✎ ${usedPrefix}antilink on o off
-#✎ ${usedPrefix}welcome on o off
-#✎ ${usedPrefix}tag
-#✎ ${usedPrefix}tagall / ${usedPrefix}invocar / ${usedPrefix}todos
-#✎ ${usedPrefix}infogrupo
-#✎ ${usedPrefix}damelink
-> ᥫ᭡puedes configurar el. bot en los grupos
+➳ *#addlista*
+> ﹣autorizar usuario para que use en privado..
 
-➮   *COMANDO Y JUEGOS*
+➳ *#dellista*
+> ﹣quitar usuario autorizado para que no lo use en privado..
+───────────────────────────────╯
 
-#✎ ${usedPrefix}verdad
-#✎ ${usedPrefix}reto
-#✎ ${usedPrefix}memes o meme
-> ᥫ᭡comandos de juegos 
+*•°•°•°•°•°•°• ★ Descargas ★ •°•°•°•°•°•°•*
+> *Comandos De Descargas Para Descargar Archivos De Las Apps..*
 
-➮ *CONFIGURACIÓN OWENER*
+➳ *#playaudio #play*
+> ﹣descargar una canción de YouTube como audio o documento..
 
-#✎ ${usedPrefix}setprefix ↷
-  Cambiar prefijo del subbot
-#✎ ${usedPrefix}creador ↷
-  Contacto del creador
-#✎ ${usedPrefix}get ↷
-  Descargar estados
-#✎ ${usedPrefix}addgrupo ↷
-  Autorizar grupo pa que lo usen.
-#✎ ${usedPrefix}addlista ↷
-  Autorizar usuario privado pa lo usen.
-#✎ ${usedPrefix}dellista ↷
-  Quitar usuario autorizado pa que o lo usen.
-#✎ ${usedPrefix}delgrupo ↷
-  Eliminar grupo autorizado pa que no lo usen.
-#✎ ${usedPrefix}pong ↷
-  Medir latencia del bot
-> ᥫ᭡aquí sólo puede ser el creador o personas de colaboración
+➳ *#instagram #ig*
+> ﹣descargar videos de Instagram..
+
+➳ *#tiktok #tk #tt*
+> ﹣descargar videos de Tiktok..
+
+➳ *#facebook #fb*
+> ﹣descargar videos de Facebook..
+
+➳ *#apk*
+> ﹣descargar una aplicación.. 
+
+➳ *#whatmusic*
+> ﹣identifica la canción de un audio o vídeo..
+
+➳ *#ytmp3 #ytmp4 #youtube*
+> ﹣para descargar canciones de YouTube..
+───────────────────────────────╯
+
+
+*•°•°•°•°•°•°• ~ ★ Grupos ★ ~ •°•°•°•°•°•°•*
+> *Comandos Para Los Grupos..*
+
+➳ *#abrirgrupo #open*
+> ﹣comando para abrir el grupo..
+
+➳ *#cerrargrupo #close*
+> ﹣comando para cerrar el grupo..
+
+➳ *#damelink*
+> ﹣comando para que el Bot mande el link del grupo..
+
+➳ *#kick*
+> ﹣comando para sacar a un miembro del grupo..
+
+➳ *#modoadmins on/off*
+> ﹣comando para que solo los administradores usen el Bot..
+
+➳ *#antilink on/off*
+> ﹣comando para sacar el miembro que mandé Link por el grupo..
+
+➳ *#welcome on/off*
+> ﹣comando para dar bienvenida y despida en el grupo..
+
+➳ *#todos #tag #invocar #tagall*
+> ﹣comando para etiquetar y invocar todos los miembros del grupo..
+
+➳ *#tts + (texto)*
+> ﹣repite lo que dice en el texto con un audio..
+───────────────────────────────╯
+
+*•°•°•°•°•°•°• ~ ★ Stickers ★ ~ •°•°•°•°•°•°•*
+> *Comandos Para Crear Stickers..*
+
+➳ *#s #sticker*
+> ﹣hacer sticker de video o foto..
+
+➳ *#ver*
+> ﹣enviar fotos que son de ver de una sola vez.. 
+
+➳ *#hd*
+> ﹣subir la calidad a las imágenes..
+
+➳ *#toimg*
+> ﹣hacer que un sticker sea una imagen..
+
+➳ *#perfil + (mención)*
+> ﹣ver la foto de perfil de un usuario..
+───────────────────────────────╯
+
+*•°•°•°•°•°•°• ~ ★ Anime ★ ~ •°•°•°•°•°•°•*
+> *Comandos Para Reacciones De Anime..*
+
+➳ *#kiss*
+> ﹣besar a alguien..
+
+➳ *#slap*
+> ﹣pegarle a alguien..
+───────────────────────────────╯
+
+*•°•°•°•°•°•°• ~ ★ Juegos ★ ~ •°•°•°•°•°•°•*
+> *Comandos De Juegos Para Divertirse En Grupos..*
+
+➳ *#verdad o #reto*
+> ﹣juega a verdad o reto..
+
+➳ *#topkiss*
+> ﹣usuarios besados o que besaron..
+
+➳ *#topslap*
+> ﹣usuarios más golpeados o que golpearon..
+
+➳ *#meme #memes*
+> ﹣el Bot envía memes..
+───────────────────────────────╯
+
+*•°•°•°•°•°•°• ~ ★ Ai ★ ~ •°•°•°•°•°•°•*
+> *Comandos De Inteligencia Artificial..*
+
+➳ *#chatgpt*
+> ﹣preguntale cosas a Chatgpt..
+
+➳ *#geminis*
+> ﹣preguntale a Géminis.. 
+───────────────────────────────╯
 `.trim();
     } else {
       // MENÚ POR DEFECTO NORMALITO
